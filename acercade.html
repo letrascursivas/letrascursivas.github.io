@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nosotros</title>
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          color: #333;
+          max-width: 800px;
+          margin: 0 auto;
+          padding: 20px;
+      }
+
+      h1 {
+          text-align: center;
+          color: #2c3e50;
+          margin-bottom: 30px;
+      }
+
+      h2 {
+          color: #2c3e50;
+          margin-top: 25px;
+          border-bottom: 1px solid #eee;
+          padding-bottom: 5px;
+      }
+
+      h3 {
+          color: #3498db;
+          margin-top: 20px;
+      }
+
+      p {
+          margin-bottom: 15px;
+      }
+
+      ul {
+          margin-bottom: 15px;
+          padding-left: 20px;
+      }
+
+      li {
+          margin-bottom: 5px;
+      }
+
+      .last-updated {
+          font-style: italic;
+          text-align: right;
+          margin-top: 30px;
+          color: #7f8c8d;
+      }
+
+      .section {
+          margin-bottom: 30px;
+      }
+
+      @media screen and (max-width: 600px) {
+          body {
+              padding: 15px;
+          }
+
+          h1 {
+              font-size: 24px;
+          }
+
+          h2 {
+              font-size: 20px;
+          }
+      }
+      main {
+         flex: 1;
+         padding: 20px;
+     }
+
+     footer {
+         background-color: #333;
+         color: white;
+         padding: 40px 0;
+     }
+
+     .footer-container {
+         max-width: 1200px;
+         margin: 0 auto;
+         display: flex;
+         flex-wrap: wrap;
+         gap: 30px;
+         padding: 0 20px;
+     }
+
+     .footer-section {
+         flex: 1;
+         min-width: 300px;
+     }
+
+     .footer-section h3 {
+         color: #f8f8f8;
+         margin-bottom: 20px;
+         font-size: 1.3rem;
+         position: relative;
+         padding-bottom: 10px;
+     }
+
+     .footer-section h3::after {
+         content: '';
+         position: absolute;
+         left: 0;
+         bottom: 0;
+         width: 50px;
+         height: 2px;
+         background-color: #4CAF50;
+     }
+
+     .footer-section p {
+         margin-bottom: 15px;
+         line-height: 1.6;
+         color: #bbb;
+     }
+
+     .footer-section ul {
+         list-style: none;
+     }
+
+     .footer-section ul li {
+         margin-bottom: 10px;
+     }
+
+     .footer-section ul li a {
+         color: #bbb;
+         text-decoration: none;
+         transition: color 0.3s;
+     }
+
+     .footer-section ul li a:hover {
+         color: #4CAF50;
+     }
+
+     .footer-bottom {
+         background-color: #222;
+         padding: 15px 0;
+         text-align: center;
+         margin-top: 30px;
+     }
+
+     .footer-bottom p {
+         color: #aaa;
+         font-size: 0.9rem;
+     }
+
+     @media (max-width: 768px) {
+         .footer-container {
+             flex-direction: column;
+             gap: 40px;
+         }
+     }
+
+
+
+
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, sans-serif;
+      }
+
+      nav {
+          background: #333;
+          padding: 10px 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+      }
+
+      .logo {
+          color: white;
+          font-size: 24px;
+          font-weight: bold;
+      }
+
+      .menu-toggle {
+          display: none;
+          color: white;
+          font-size: 24px;
+          cursor: pointer;
+      }
+
+      .nav-links {
+          display: flex;
+          list-style: none;
+          transition: all 0.3s ease;
+      }
+
+      .nav-links li a {
+          color: white;
+          text-decoration: none;
+          padding: 10px 15px;
+          display: block;
+      }
+
+      .nav-links li a:hover {
+          background: #555;
+          border-radius: 4px;
+      }
+
+      @media (max-width: 768px) {
+          .menu-toggle {
+              display: block;
+          }
+
+          .nav-links {
+              width: 100%;
+              flex-direction: column;
+              display: none;
+          }
+
+          .nav-links.active {
+              display: flex;
+          }
+
+          .nav-links li {
+              margin: 5px 0;
+          }
+      }
+        .section1 {
+          background-color: white;
+          text-align: center;
+        }
+            .fixed {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 99;
+            }
+    </style>
+</head>
+<body>
+  <nav>
+   <div class="logo">Letras Cursivas</div>
+   <div class="menu-toggle">☰</div>
+   <ul class="nav-links">
+     <li><a href="/">Hogar</a></li>
+     <li><a href="acercade.html">Acerca de</a></li>
+   </ul>
+</nav>
+    <div class="about-container">
+        <h1>Sobre nosotros</h1>
+
+        <p>¡Bienvenido al conversor de texto en cursiva más completo en línea!  Nos apasiona ayudarte a transformar texto ordinario en hermosas y llamativas fuentes cursivas y estilizadas para todas tus necesidades creativas.</p>
+
+        <h2>Cómo funciona</h2>
+        <p>Nuestro convertidor utiliza un mapeo avanzado de caracteres Unicode para transformar tu texto normal en impresionantes estilos cursivos y decorativos.  Simplemente escribe tu texto, explora las opciones generadas y copia tu estilo favorito con un solo clic.</p>
+
+        <h2>Our Commitment</h2>
+        <p>Nos comprometemos a mejorar continuamente nuestra herramienta mediante:</p>
+        <ul>
+            <li>Añadiendo estilos de fuente nuevos y modernos periódicamente</li>
+            <li>Optimización para todos los dispositivos y plataformas</li>
+            <li>Garantizamos un servicio rápido y confiable</li>
+            <li>Escuchando los comentarios de nuestros usuarios</li>
+        </ul>
+    </div>
+    <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    });
+</script>
+    <footer>
+    <div class="footer-container">
+        <!-- First Section -->
+        <div class="footer-section">
+            <h3>Sobre nosotras</h3>
+            <p>¡Bienvenido al conversor de texto en cursiva más completo en línea! Nos apasiona ayudarte a transformar texto ordinario en hermosas y llamativas fuentes cursivas y estilizadas para todas tus necesidades creativas.</p>
+        </div>
+
+        <!-- Second Section -->
+        <div class="footer-section">
+            <h3>Enlaces rápidos</h3>
+            <ul>
+                <li><a href="/">Hogar</a></li>
+                <li><a href="acercade.html">Sobre nosotras</a></li>
+                <li><a href="términosycondiciones.html">términos y condiciones</a></li>
+                <li><a href="políticadeprivacidad.html">Política de Privacidad</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

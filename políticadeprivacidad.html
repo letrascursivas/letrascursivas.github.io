@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Conversor de Letras Cursivas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .privacy-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-top: 30px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        h3 {
+            color: #3498db;
+            margin-top: 25px;
+            font-size: 1.1em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul, ol {
+            margin-bottom: 20px;
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+            font-size: 0.95em;
+        }
+
+        .last-updated {
+            text-align: right;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            .privacy-container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            h2 {
+                font-size: 1.3em;
+            }
+        }
+        main {
+           flex: 1;
+           padding: 20px;
+       }
+
+       footer {
+           background-color: #333;
+           color: white;
+           padding: 40px 0;
+       }
+
+       .footer-container {
+           max-width: 1200px;
+           margin: 0 auto;
+           display: flex;
+           flex-wrap: wrap;
+           gap: 30px;
+           padding: 0 20px;
+       }
+
+       .footer-section {
+           flex: 1;
+           min-width: 300px;
+       }
+
+       .footer-section h3 {
+           color: #f8f8f8;
+           margin-bottom: 20px;
+           font-size: 1.3rem;
+           position: relative;
+           padding-bottom: 10px;
+       }
+
+       .footer-section h3::after {
+           content: '';
+           position: absolute;
+           left: 0;
+           bottom: 0;
+           width: 50px;
+           height: 2px;
+           background-color: #4CAF50;
+       }
+
+       .footer-section p {
+           margin-bottom: 15px;
+           line-height: 1.6;
+           color: #bbb;
+       }
+
+       .footer-section ul {
+           list-style: none;
+       }
+
+       .footer-section ul li {
+           margin-bottom: 10px;
+       }
+
+       .footer-section ul li a {
+           color: #bbb;
+           text-decoration: none;
+           transition: color 0.3s;
+       }
+
+       .footer-section ul li a:hover {
+           color: #4CAF50;
+       }
+
+       .footer-bottom {
+           background-color: #222;
+           padding: 15px 0;
+           text-align: center;
+           margin-top: 30px;
+       }
+
+       .footer-bottom p {
+           color: #aaa;
+           font-size: 0.9rem;
+       }
+
+       @media (max-width: 768px) {
+           .footer-container {
+               flex-direction: column;
+               gap: 40px;
+           }
+       }
+
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .menu-toggle {
+            display: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+
+        .nav-links li a:hover {
+            background: #555;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: block;
+            }
+
+            .nav-links {
+                width: 100%;
+                flex-direction: column;
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .nav-links li {
+                margin: 5px 0;
+            }
+        }
+          .section1 {
+            background-color: white;
+            text-align: center;
+          }
+              .fixed {
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  z-index: 99;
+              }
+    </style>
+</head>
+<body>
+  <nav>
+   <div class="logo">Letras Cursivas</div>
+   <div class="menu-toggle">☰</div>
+   <ul class="nav-links">
+     <li><a href="/">Hogar</a></li>
+     <li><a href="acercade.html">Acerca de</a></li>
+   </ul>
+</nav>
+    <div class="privacy-container">
+        <h1>Política de Privacidad</h1>
+
+        <p>En el Conversor de Letras Cursivas, valoramos y respetamos tu privacidad. Esta política explica cómo recopilamos, usamos, compartimos y protegemos tu información cuando utilizas nuestro servicio.</p>
+
+        <h2>1. Información que Recopilamos</h2>
+
+        <h3>1.1 Información que nos proporcionas directamente</h3>
+        <ul>
+            <li><strong>Texto ingresado:</strong> El texto que introduces para convertirlo a diferentes estilos tipográficos.</li>
+            <li><strong>Datos técnicos:</strong> Información sobre tu dispositivo y conexión a Internet cuando usas nuestro servicio.</li>
+        </ul>
+
+        <h3>1.2 Información recopilada automáticamente</h3>
+        <ul>
+            <li><strong>Datos de uso:</strong> Cómo interactúas con nuestro sitio (páginas visitadas, tiempo de permanencia, etc.).</li>
+            <li><strong>Datos del dispositivo:</strong> Tipo de dispositivo, sistema operativo, navegador web y configuración regional.</li>
+            <li><strong>Dirección IP:</strong> Para análisis de seguridad y diagnóstico de problemas.</li>
+        </ul>
+
+        <h2>2. Cómo Usamos Tu Información</h2>
+        <p>Utilizamos la información recopilada para:</p>
+        <ul>
+            <li>Proporcionar y mejorar nuestro servicio de conversión de texto</li>
+            <li>Analizar el uso del sitio para optimizar la experiencia del usuario</li>
+            <li>Prevenir fraudes y abusos del servicio</li>
+            <li>Cumplir con obligaciones legales</li>
+        </ul>
+
+        <h2>3. Compartir Información</h2>
+        <p>No vendemos ni alquilamos tu información personal a terceros. Podemos compartir información en los siguientes casos:</p>
+        <ul>
+            <li><strong>Proveedores de servicios:</strong> Con empresas que nos ayudan a operar nuestro servicio (análisis web, hosting), bajo estrictos acuerdos de confidencialidad.</li>
+            <li><strong>Requisitos legales:</strong> Cuando sea necesario para cumplir con la ley o proteger nuestros derechos.</li>
+            <li><strong>Transferencia de negocio:</strong> En caso de fusión, adquisición o venta de activos.</li>
+        </ul>
+
+        <h2>4. Seguridad de los Datos</h2>
+        <p>Implementamos medidas de seguridad técnicas y organizativas para proteger tu información:</p>
+        <ul>
+            <li>Protocolos de encriptación para datos en tránsito</li>
+            <li>Sistemas de protección contra accesos no autorizados</li>
+            <li>Procedimientos internos de manejo de datos</li>
+        </ul>
+        <p>Sin embargo, ningún método de transmisión por Internet o almacenamiento electrónico es 100% seguro.</p>
+
+        <h2>5. Retención de Datos</h2>
+        <p>Conservamos tu información solo durante el tiempo necesario para los fines descritos en esta política:</p>
+        <ul>
+            <li>El texto que conviertes no se almacena permanentemente en nuestros servidores después de procesarlo</li>
+            <li>Los datos analíticos se conservan de forma agregada y anónima</li>
+        </ul>
+
+        <h2>6. Tus Derechos</h2>
+        <p>Dependiendo de tu jurisdicción, puedes tener derechos sobre tus datos personales:</p>
+        <ul>
+            <li><strong>Acceso:</strong> Solicitar una copia de los datos que tenemos sobre ti</li>
+            <li><strong>Rectificación:</strong> Corregir información inexacta</li>
+            <li><strong>Eliminación:</strong> Pedir que borremos tus datos personales</li>
+            <li><strong>Limitación:</strong> Restringir cómo usamos tu información</li>
+            <li><strong>Portabilidad:</strong> Recibir tus datos en formato estructurado</li>
+            <li><strong>Oposición:</strong> Oponerte a ciertos usos de tus datos</li>
+        </ul>
+        <p>Para ejercer estos derechos, contáctanos usando la información al final de esta política.</p>
+
+        <h2>7. Cookies y Tecnologías Similares</h2>
+        <p>Utilizamos cookies y tecnologías similares para:</p>
+        <ul>
+            <li>Funcionamiento básico del sitio</li>
+            <li>Análisis de tráfico y uso del servicio</li>
+            <li>Mejorar la experiencia del usuario</li>
+        </ul>
+        <p>Puedes gestionar tus preferencias de cookies a través de la configuración de tu navegador.</p>
+
+        <h2>8. Menores de Edad</h2>
+        <p>Nuestro servicio no está dirigido a menores de 13 años. No recopilamos conscientemente información de niños sin el consentimiento verificable de los padres.</p>
+
+        <h2>9. Cambios a Esta Política</h2>
+        <p>Podemos actualizar esta política ocasionalmente. Te notificaremos sobre cambios significativos publicando la nueva política en nuestro sitio con una nueva fecha de "Última actualización".</p>
+
+        <h2>10. Contacto</h2>
+        <p>Si tienes preguntas sobre esta política de privacidad, puedes contactarnos:</p>
+        <ul>
+            <li>Por correo electrónico: privacidad@ejemplo.com</li>
+            <li>A través del formulario de contacto en nuestro sitio web</li>
+        </ul>
+    </div>
+    <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+        document.querySelector('.nav-links').classList.toggle('active');
+    });
+</script>
+    <footer>
+    <div class="footer-container">
+        <!-- First Section -->
+        <div class="footer-section">
+            <h3>Sobre nosotras</h3>
+            <p>¡Bienvenido al conversor de texto en cursiva más completo en línea! Nos apasiona ayudarte a transformar texto ordinario en hermosas y llamativas fuentes cursivas y estilizadas para todas tus necesidades creativas.</p>
+        </div>
+
+        <!-- Second Section -->
+        <div class="footer-section">
+            <h3>Enlaces rápidos</h3>
+            <ul>
+                <li><a href="/">Hogar</a></li>
+                <li><a href="acercade.html">Sobre nosotras</a></li>
+                <li><a href="términosycondiciones.html">términos y condiciones</a></li>
+                <li><a href="políticadeprivacidad.html">Política de Privacidad</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
